@@ -22,7 +22,7 @@ function Table(props) {
                 <tbody>
                     {props.list.map(user => (
                         <tr key={user.login.uuid}>
-                            <td className="align-middle">
+                            <td className="align-middle text-center">
                                 <img src={user.picture.medium} className="rounded-circle" alt="Employee Profile" />
                             </td>
                             <td className="align-middle">{user.name.first} {user.name.last}</td>
