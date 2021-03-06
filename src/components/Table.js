@@ -19,7 +19,7 @@ function Table(props) {
 
             <tbody>
                 {props.list.map(user => (
-                    <tr>
+                    <tr key={user.login.uuid}>
                         <td>
                             <img src={user.picture.thumbnail} alt="Employee Profile" />
                         </td>
