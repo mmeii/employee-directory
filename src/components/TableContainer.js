@@ -16,6 +16,7 @@ function TableContainer() {
 
     function sortName() {
         console.log("sorting by name");
+
         const sorted = usersState.sort((a, b) => {
             if (a.name.first < b.name.first) {
                 return -1;
@@ -25,6 +26,7 @@ function TableContainer() {
                 return 0;
             }
         });
+
         setUsersState([...sorted]);
     }
 
