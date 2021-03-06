@@ -1,5 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Table(props) {
     return (
@@ -8,18 +8,17 @@ function Table(props) {
                 <tr>
                     <th>Image</th>
                     <th>Name
-                    <button className="sort" onClick={props.sortName}>
+                    {/* <button className="sort" onClick={props.sortName}>
                             <FontAwesomeIcon icon={['fas', 'sort']} />
-                        </button>
+                        </button> */}
                     </th>
-                    <th>Phone Number
-                </th>
+                    <th>Phone Number</th>
                     <th>Email</th>
                 </tr>
             </thead>
 
             <tbody>
-                {props.list.map(user =>
+                {props.list.map(user => (
                     <tr>
                         <td>
                             <img src={user.picture.thumbnail} alt="Employee Profile" />
@@ -28,7 +27,7 @@ function Table(props) {
                         <td>{user.phone}</td>
                         <td>{user.email}</td>
                     </tr>
-                )}
+                ))}
             </tbody>
         </table>
     )
