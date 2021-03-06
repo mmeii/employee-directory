@@ -3,29 +3,29 @@ import React from 'react';
 
 function Table(props) {
     return (
-        <table>
+        <table className="table table-striped">
             <thead>
                 <tr>
-                    <th>Image</th>
-                    <th>Name
+                    <th scope="col">Image</th>
+                    <th scope="col">Name
                     {/* <button className="sort" onClick={props.sortName}>
                             <FontAwesomeIcon icon={['fas', 'sort']} />
                         </button> */}
                     </th>
-                    <th>Phone Number</th>
-                    <th>Email</th>
+                    <th scope="col">Phone Number</th>
+                    <th scope="col">Email</th>
                 </tr>
             </thead>
 
             <tbody>
                 {props.list.map(user => (
                     <tr key={user.login.uuid}>
-                        <td>
-                            <img src={user.picture.thumbnail} alt="Employee Profile" />
+                        <td className="align-middle">
+                            <img src={user.picture.medium} alt="Employee Profile" />
                         </td>
-                        <td>{user.name.first} {user.name.last}</td>
-                        <td>{user.phone}</td>
-                        <td>{user.email}</td>
+                        <td className="align-middle">{user.name.first} {user.name.last}</td>
+                        <td className="align-middle">{user.phone}</td>
+                        <td className="align-middle">{user.email}</td>
                     </tr>
                 ))}
             </tbody>

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Table from '../components/Table';
+import Table from './Table';
 
-function Container() {
+function TableContainer() {
     const [usersState, setUsersState] = useState([]);
 
     useEffect(() => {
@@ -31,4 +31,4 @@ function Container() {
     )
 }
 
-export default Container;
+export default TableContainer;

@@ -1,10 +1,13 @@
 import React from 'react';
-import Container from './components/Container';
+import TableContainer from './components/TableContainer';
+import Title from './components/Title';
 
 function App() {
   return (
     <div>
-      <Container />
+      <Title />
+      <TableContainer />
+
     </div>
   );
 }
