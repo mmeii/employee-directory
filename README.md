@@ -1,6 +1,6 @@
 # Employee Directory
 
-![License Badge](https://img.shields.io/github/license/mmeii/employee-directory) ![Top Language](https://img.shields.io/github/languages/top/mmeii/employee-directory)
+![License Badge](https://img.shields.io/badge/license-MIT-green) ![Top Language](https://img.shields.io/github/languages/top/mmeii/employee-directory)
 
 This is an employee directory using data from the Random User API. When the user loads the page, a table of employees is rendered. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 
