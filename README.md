@@ -13,7 +13,7 @@ This is an employee directory using data from the Random User API. When the user
 
 * Application will be invoked by using the following command:
 
-  `node server.js`
+  `npm start`
 
 * Open your browser and go to
   
@@ -27,6 +27,8 @@ This is an employee directory using data from the Random User API. When the user
   * Email
 
 * When the Name header is clicked, the information will be sorted in ascending order by name
+
+![Screen Shot of Application](public/employee-directory-screenshot.png)
 
 ## Links
 
