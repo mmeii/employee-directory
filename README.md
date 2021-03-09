@@ -6,7 +6,7 @@ This is an employee directory using data from the Random User API. When the user
 
 ## Installation
 
-1. 1. Download or clone repository
+1. Download or clone repository
 2. `npm install` to install the required npm packages to run
 
 ## Usage
@@ -35,7 +35,7 @@ This is an employee directory using data from the Random User API. When the user
 * [Github](https://github.com/mmeii/employee-directory)
 * [Deployed](http://iammei.com/employee-directory/)
 
-Features
+## Features
 
 * JavaScript
 * ReactJS
